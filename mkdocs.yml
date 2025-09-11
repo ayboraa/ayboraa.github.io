@@ -146,13 +146,13 @@ markdown_extensions:
 docs_dir: docs
 
 extra:
-  google_site_verification: fill
+  google_site_verification: bNCmqAWs4hgfqX1_aVuYKqfPcWmU1-gS3C4X9hKoMDs
   social_image: https://media.licdn.com/dms/image/v2/D4D16AQFfYtw-Valqbg/profile-displaybackgroundimage-shrink_350_1400/B4DZj8XynjHYAY-/0/1756580753088?e=1760572800&v=beta&t=TDI9XMB2xDVMyYxI80Kfwg5OlrX6nrjKvpTeTRzwDks
   og_image_w: 1200
   og_image_h: 630
   analytics:
     provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
+    property: G-0FGVW20H02
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ayboraa
