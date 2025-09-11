@@ -16,6 +16,12 @@
   --md-shadow-z3: none;
 }
 
+img[src*='#center'] { 
+    display: block;
+    margin: auto;
+}
+
+
 html, body, .md-content, .md-content__inner { 
   background: var(--lauti-bg) !important; 
   color: var(--lauti-fg) !important; 
@@ -101,6 +107,13 @@ html, body, .md-content, .md-content__inner {
 }
 
 .md-typeset p { color: var(--lauti-fg); }
+
+.md-typeset blockquote a { 
+  color: #13ece1ea; 
+  text-decoration: underline; 
+  text-decoration-color: rgba(0, 255, 47, 0.25); 
+}
+
 
 .md-typeset a { 
   color: #fff; 
@@ -219,7 +232,11 @@ html, body, .md-content, .md-content__inner {
 .md-typeset .glightbox { display: block !important; }
 .md-typeset .glightbox > img { display: block !important; }
 
-.md-typeset img,
+.md-typeset img {
+    display: block !important;
+    margin: 1rem auto !important; /* auto left/right centers */
+}
+
 .md-typeset figure,
 .md-typeset img[align],
 .md-typeset figure[align],

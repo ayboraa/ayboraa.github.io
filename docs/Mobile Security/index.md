@@ -8,7 +8,7 @@ description: "Mobile Security Writeups"
 **What you will find here:**
 
 - Static and Dynamic Analysis
-- Native, Cross-Platform, and Hybrid Applications
+- Native, Cross-Platform and Hybrid Applications
 - Application Security Layers
 - Detection Mechanisms
 - Pinning Mechanisms

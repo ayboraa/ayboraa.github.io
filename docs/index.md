@@ -112,7 +112,7 @@ hide:
 <div id="typeit-output" style="text-align: center;"></div>
 
 <div id="button-container" style="text-align: center; margin-top: 20px; z-index: 10; position: relative;">
-    <button data-target="./mobile">📱 Mobile Security</button>
+    <button data-target="./Mobile Security">📱 Mobile Security</button>
     <button data-target="./offensive">⚔️ Offensive Security</button>
 </div>
 
