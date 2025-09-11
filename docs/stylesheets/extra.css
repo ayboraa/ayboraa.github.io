@@ -115,7 +115,7 @@ html, body, .md-content, .md-content__inner {
 }
 
 
-.md-typeset a { 
+.md-typeset a {  
   color: #fff; 
   text-decoration: underline; 
   text-decoration-color: rgba(255,255,255,.25); 
