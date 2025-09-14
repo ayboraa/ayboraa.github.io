@@ -113,7 +113,7 @@ hide:
 
 <div id="button-container" style="text-align: center; margin-top: 20px; z-index: 10; position: relative;">
     <button data-target="./Mobile Security">📱 Mobile Security</button>
-    <button data-target="./offensive">⚔️ Offensive Security</button>
+    <button data-target="./Offensive Security">⚔️ Offensive Security</button>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>

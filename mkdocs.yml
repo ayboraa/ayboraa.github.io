@@ -31,7 +31,7 @@ theme:
     - content.tabs.link
     - content.tooltips
 #    - header.autohide
-    - navigation.expand
+    - navigation.collapse
     - navigation.footer
     - navigation.indexes
     - navigation.instant
@@ -49,6 +49,7 @@ theme:
     - search.suggest
     - toc.follow
     - toc.integrate
+    - toc.collapse
   
   favicon: 
   icon:
@@ -156,7 +157,9 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/uaybora
   generator: false
-  
+  navigation:
+    collapse: true
+
 extra_css:
   - stylesheets/extra.css
 

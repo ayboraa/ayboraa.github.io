@@ -105,15 +105,15 @@ First, I navigate to the `AndroidManifest.xml` file to check the scheme. It is c
 
 ![](https://cdn-images-1.medium.com/max/857/1*yKrH66Ez4tIsXizcbigOGA.png)
 
-I accessed the deep link using the command: adb shell am start -W -a android.intent.action.VIEW -d allsafe://infosecadventures/congrats?a=1. The application responded with “No key provided!”, giving us a hint about the required parameter.
+I accessed the deep link using the command: `adb shell am start -W -a android.intent.action.VIEW -d allsafe://infosecadventures/congrats?a=1`. The application responded with “No key provided!”, giving us a hint about the required parameter.
 
 ![](https://cdn-images-1.medium.com/max/857/1*K58JVNpOkwCC7xcpznEohQ.png)
 
-Then, I tried: adb shell am start -W -a android.intent.action.VIEW -d allsafe://infosecadventures/congrats?key=a and observed the response.
+Then, I tried: `adb shell am start -W -a android.intent.action.VIEW -d allsafe://infosecadventures/congrats?key=a` and observed the response.
 
 ![](https://cdn-images-1.medium.com/max/857/1*BxZ7RBBNYpxDhv1AJMU7Sg.png)
 
-At this point, I decided to check the source code. The code verifies whether the `key` parameter matches the string defined in `strings.xml`. I located the key and used it in the new command: adb shell am start -W -a android.intent.action.VIEW -d allsafe://infosecadventures/congrats?key=ebfb7ff0-b2f6–41c8-bef3–4fba17be410c
+At this point, I decided to check the source code. The code verifies whether the `key` parameter matches the string defined in `strings.xml`. I located the key and used it in the new command: `adb shell am start -W -a android.intent.action.VIEW -d allsafe://infosecadventures/congrats?key=ebfb7ff0-b2f6–41c8-bef3–4fba17be410c`
 
 ![](https://cdn-images-1.medium.com/max/857/1*s0nF0A4ciNhP0aU0-0wFvg.png)
 
