@@ -51,7 +51,7 @@ theme:
     - toc.integrate
     - toc.collapse
   
-  favicon: 
+  favicon: img/favicon.ico
   icon:
     logo: material/leaf
     repo: fontawesome/brands/github
